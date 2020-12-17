@@ -9,7 +9,12 @@
       rel="stylesheet"
       type="text/css"
     />
+    <!-- Style.css Import -->
     <link rel="stylesheet" href="main.css" />
+    <!-- Smooth Scroll Import -->
+    <script src="../JS/smooth-scroll.js"></script>
+    <!-- Script.js Import -->
+    <script src="../JS/script.js" defer></script>
   </head>
   <body>
     <!-- * TWINKLING STARS  -->
@@ -22,10 +27,52 @@
     <div id="stars2"></div>
     <div id="stars3"></div>
 
-    <div class="flex">
+    <!-- * TEMP -->
+    <!-- <div class="flex">
       <h2>Hello, My name is Vaasu Dhand</h2>
       <h4>I am a Front End Dev</h4>
+    </div> -->
 
-    </div>
+    <!-- * NAVBAR -->
+    <nav>
+        <!-- 🍔 Menu   -->
+        <!-- Keep Changing the spinner animation in the CRONJob;s fn -->
+        <button class="hamburger hamburger--spin" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      <label class="logo">Vaasu Dhand</label>
+      <ul>
+        <li><a data-scroll href="#about">About</a></li>
+        <li><a data-scroll href="#skills">Skills</a></li>
+        <li><a data-scroll href="#projects">Projects</a></li>
+        <li><a data-scroll href="#blog">Blog</a></li>
+        <li><a data-scroll href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="about">
+      <h1>About</h1>
+    </section>
+    <section id="skills">
+      <h1>Skills</h1>
+      
+    </section>
+    <section id="projects">
+      <h1>Projects</h1>
+      
+    </section>
+    <section id="blog">
+      <h1>Blog</h1>
+      
+    </section>
+    <section id="contact">
+      <h1>Contact</h1>
+
+    </section>
+
+    <footer></footer>
+
   </body>
 </html>

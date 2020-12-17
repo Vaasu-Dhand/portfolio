@@ -1,0 +1,5 @@
+.stars -> -10
+.twinkling -> -9
+#stars -> -8
+#stars2 -> -7
+#stars3 -> -6
