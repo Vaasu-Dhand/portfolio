@@ -1,3 +1,14 @@
 Primary Color: Black
 Secondary Color: White
-Tertiary Color: Purple
+Tertiary Color: Purple (#6f42c1)
+
+### TODO: 
+# Put Scss files in Folders
+# Incorporate This, in Nav buttons: https://codemyui.com/smoke-liquid-button-animation-effects/
+# ADD FIGMA IN SKILLS
+# Change Logo to Signature
+# Plant Easter eggs
+
+### BUGS
+# Hover over skills bring it above Nav
+# Nav Appears under the area on 954px width

@@ -12,4 +12,14 @@ hamburger.addEventListener("click", function() {
 }); 
 
 // * Smooth Scroll
-var scroll = new SmoothScroll('a[href*="#"]');
+var scroll = new SmoothScroll('a[href*="#"]');    
+
+// Temp Code (For Maintaining scroll position)
+// document.addEventListener("DOMContentLoaded", function(event) { 
+//   var scrollpos = localStorage.getItem('scrollposition');
+//   if (scrollpos) window.scrollTo(0, scrollpos);
+// });
+
+// window.onbeforeunload = function(e) { 
+//   localStorage.setItem('scrollposition', window.scrollY); 
+// }; 

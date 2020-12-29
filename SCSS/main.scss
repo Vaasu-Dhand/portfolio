@@ -1,8 +1,10 @@
 @import 'mixins';
+@import 'globals';
 @import 'animation';
 @import 'hamburgers';
 @import 'navbar';
 @import 'skills';
+@import 'projects';
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -11,7 +13,7 @@
 }
 
 body {
-  color: white;
+  color: $COLOR_WHITE;
   font-family: 'Ubuntu', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: black;  // Prevents White Light Flashing on Scroll
 }
@@ -21,5 +23,16 @@ section {
   height: 100vh;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: white; // * DO NOT CHANGE
+  background: $COLOR_VIOLET;
+}
+
+::selection {
+  color: white; // * DO NOT CHANGE
+  background: $COLOR_VIOLET;
+}
 
 
+
+@import 'responsive';

@@ -107,7 +107,7 @@ $shadows-big: multiple-box-shadow(20);
   z-index: -7;
 
   &:after {
-    content: " ";
+    content: "";
     position: absolute;
     top: 2000px;
     width: 2px;
@@ -142,6 +142,6 @@ $shadows-big: multiple-box-shadow(20);
     transform: translateY(0px);
   }
   to {
-    transform: translateY(-2000px);
+    transform: translateY(-2000px);   
   }
 }

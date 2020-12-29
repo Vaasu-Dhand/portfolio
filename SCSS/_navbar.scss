@@ -7,7 +7,7 @@ nav{
   position: fixed;
 }
 label.logo{
-  color: white;
+  color: $COLOR_WHITE;
   font-size: 35px;
   line-height: $nav-height;
   padding: 0 100px;
@@ -23,16 +23,18 @@ nav ul li{
   margin: 0 5px;
 }
 nav ul li a{
-  color: white;
+  color: $COLOR_WHITE;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
   text-transform: uppercase;
   text-decoration: none;
-}
-a.active,a:hover{
-  background: #1b9bff;
   transition: .5s;
+
+  &.active,&:hover {
+    background: $COLOR_VIOLET;
+    transition: .5s;
+  }
 }
 .hamburger{  
   float: right;
@@ -62,6 +64,7 @@ a.active,a:hover{
     left: -100%;
     text-align: center;
     transition: all .5s;
+    
   }
   nav ul li{
     display: block;
@@ -73,7 +76,7 @@ a.active,a:hover{
   }
   a:hover,a.active{
     background: none;
-    color: #0082e6;
+    color: $COLOR_WHITE;
   }
   // SWITCH ON Mobile Nav
   .nav-is-open {
