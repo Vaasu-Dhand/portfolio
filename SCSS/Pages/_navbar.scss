@@ -5,6 +5,7 @@ nav{
   height: $nav-height;
   width: 100%;
   position: fixed;
+  z-index: 999; // Above All 
 }
 label.logo{
   color: $COLOR_WHITE;

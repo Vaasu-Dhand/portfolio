@@ -77,7 +77,7 @@ new Splide('.splide', {
   },
 }).mount();
 
-// * A Function for trnsparencig the next and orev btn on blog section
+// * A Function for trnsparencig the next and prev btn on blog section
 function frontendVisibility() {
   if (currentPost === 0) {
   }

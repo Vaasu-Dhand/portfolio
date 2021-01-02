@@ -1,37 +1,19 @@
-@import 'mixins';
-@import 'globals';
-@import 'animation';
-@import 'hamburgers';
-@import 'navbar';
-@import 'skills';
-@import 'projects';
-@import 'splide';
-@import 'blog';
+// * 1 - Helpers
+@import 'Helpers/classes';
+@import 'Helpers/mixins';
+@import 'Helpers/variables';
 
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+// * 2 - Libraries
+@import 'Libraries/hamburgers';
+@import 'Libraries/splide';
 
-body {
-  color: $COLOR_WHITE;
-  font-family: 'Ubuntu', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: black;  // Prevents White Light Flashing on Scroll
-}
+// * 3 - Global 
+@import 'Global/animation';
+@import 'Global/base';
+@import 'Global/responsive';
 
-section {
-  padding-top: 80px;
-}
-
-::-moz-selection { /* Code for Firefox */
-  color: white; // * DO NOT CHANGE
-  background: $COLOR_VIOLET;
-}
-
-::selection {
-  color: white; // * DO NOT CHANGE
-  background: $COLOR_VIOLET;
-}
-
-@import 'responsive';
+// * 4 - Pages
+@import 'Pages/blog';
+@import 'Pages/navbar';
+@import 'Pages/projects';
+@import 'Pages/skills';

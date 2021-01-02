@@ -3,3 +3,4 @@
 #stars -> -8
 #stars2 -> -7
 #stars3 -> -6
+#nav -> 999
