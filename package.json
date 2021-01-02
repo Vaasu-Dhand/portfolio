@@ -4,7 +4,9 @@
   "description": "Portfolio Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch",
+    "start:dev": "webpack-dev-server serve"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,12 @@
     "url": "https://github.com/Vaasu-Dhand/portfolio/issues"
   },
   "homepage": "https://github.com/Vaasu-Dhand/portfolio#readme",
-  "dependencies": {}
+  "dependencies": {
+    "@splidejs/splide": "^2.4.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.1"
+  }
 }

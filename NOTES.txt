@@ -1,5 +1,5 @@
 Primary Color: Black
-Secondary Color: White
+Secondary Color: White (#fdf5e6)
 Tertiary Color: Purple (#6f42c1)
 
 ### TODO: 
@@ -8,7 +8,17 @@ Tertiary Color: Purple (#6f42c1)
 # ADD FIGMA IN SKILLS
 # Change Logo to Signature
 # Plant Easter eggs
+# Incorporate FrontEnd Design for Blogs
 
 ### BUGS
 # Hover over skills bring it above Nav
 # Nav Appears under the area on 954px width
+
+### DATA FETCHING
+API_KEY = AIzaSyAx5Uf4c_26OHE47MII94f70NO89kNsqaM
+
+fetch 10 latest blogs = 
+https://www.googleapis.com/blogger/v3/blogs/3263602042122260502?key=AIzaSyAx5Uf4c_26OHE47MII94f70NO89kNsqaM
+
+fetch another 10 blogs
+ABOVEURL&pageToken={comesWithPrevURLRes}

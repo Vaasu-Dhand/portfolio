@@ -16,10 +16,17 @@
     />
     <!-- Style.css Import -->
     <link rel="stylesheet" href="main.css" />
+    <!-- Bundle.js Import -->
+    <!-- <script src="./bundle.js" defer></script> -->
+
     <!-- Smooth Scroll Import -->
     <script src="../JS/smooth-scroll.js"></script>
     <!-- Script.js Import -->
     <script src="../JS/script.js" defer></script>
+    <!-- Splide.js Import -->
+    <script src="../JS/splide.js" defer></script>
+    <!-- FetchBlogs.js Import -->
+    <script src="../JS/fetchBlogs.js" defer></script>
   </head>
   <body>
     <!-- * TWINKLING STARS  -->
@@ -184,7 +191,6 @@
             <span class="tag">REST API</span>
             <span class="tag">React</span>
             <span class="tag">React Hooks</span>
-
           </h5>
           <div>
             <p>
@@ -224,14 +230,12 @@
           <div>
             <p>
               A fun website that displays Pokemon Cards from allgenerations.
-              Used custom CSS for beautiful UI and animations.
-              Implemented concepts like - Infinite Scroll, PreLoad Screen,Card Flip, etc
+              Used custom CSS for beautiful UI and animations. Implemented
+              concepts like - Infinite Scroll, PreLoad Screen,Card Flip, etc
             </p>
           </div>
           <div class="link-container">
-            <a
-              href="https://pokemon-project-vd.herokuapp.com/"
-              target="_blank"
+            <a href="https://pokemon-project-vd.herokuapp.com/" target="_blank"
               >LIVE</a
             >
             <a
@@ -245,10 +249,39 @@
     </section>
 
     <!-- * BLOG -->
-    <section id="blog">
+    <section id="blog" class="container">
+      <!-- <img src="https://picsum.photos/50" alt="" onclick="updatePost('next')"> -->
       <h1>Blog</h1>
+      <!-- ! Temp Code -->
+      <!-- <div class="blog">
+        <h2></h2>
+        <h5></h5>
+        <p></p>
+        <h4>Loading...</h4>
+      </div> -->
+      <!-- <img src="https://picsum.photos/50" alt="" onclick="updatePost('back')"> -->
+      
+      <!-- ! Temp Code -->
+      <div class="splide">
+        <div class="splide__track">
+          <div class="splide__list">
+            <div class="blog splide__slide slide_1"></div>
+            <div class="blog splide__slide slide_2"></div>
+            <div class="blog splide__slide slide_3"></div>
+            <div class="blog splide__slide slide_4"></div>
+            <div class="blog splide__slide slide_5"></div>
+            <div class="blog splide__slide slide_6"></div>
+            <div class="blog splide__slide slide_7"></div>
+            <div class="blog splide__slide slide_8"></div>
+            <div class="blog splide__slide slide_9"></div>
+            <div class="blog splide__slide slide_10"></div>
+          </div>
+        </div>
+      </div>
+      
+      
     </section>
-
+      
     <!-- * CONTACT -->
     <section id="contact">
       <h1>Contact</h1>
