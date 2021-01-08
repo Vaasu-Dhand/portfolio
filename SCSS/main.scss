@@ -10,10 +10,12 @@
 // * 3 - Global 
 @import 'Global/animation';
 @import 'Global/base';
-@import 'Global/responsive';
 
 // * 4 - Pages
 @import 'Pages/blog';
 @import 'Pages/navbar';
 @import 'Pages/projects';
 @import 'Pages/skills';
+@import 'Pages/footer';
+
+@import 'Global/responsive';

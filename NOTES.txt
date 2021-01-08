@@ -3,12 +3,12 @@ Secondary Color: White (#fdf5e6)
 Tertiary Color: Purple (#6f42c1)
 
 ### TODO: 
-# Put Scss files in Folders
 # Incorporate This, in Nav buttons: https://codemyui.com/smoke-liquid-button-animation-effects/
 # ADD FIGMA IN SKILLS
 # Change Logo to Signature
 # Plant Easter eggs
 # Incorporate FrontEnd Design for Blogs
+# Configure Parcel as a Module Bundler
 
 ### BUGS
 # Hover over skills bring it above Nav
