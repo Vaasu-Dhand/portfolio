@@ -69,7 +69,7 @@ function injectBlogData(data) {
 
 // * Splide Code
 new Splide('.splide', {
-  type: 'loop',
+  type: 'fade',
   perPage: 1,
   padding: {
     right: '5rem',

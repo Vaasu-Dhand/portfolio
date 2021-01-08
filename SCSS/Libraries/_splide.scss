@@ -1,3 +1,6 @@
+$splide-color: #6e42c1c4;
+$splide-on-hover: #6F42C1;
+
 @keyframes splide-loading {
   0% {
       transform: rotate(0);
@@ -111,16 +114,16 @@
   background: transparent;
 }
 .splide__arrow svg {
-  width: 2.5em;
-  height: 2.5em;
-  fill: #20b2aa;
+  width: 4em;
+  height: 4em;
+  fill: $splide-color;
   transition: fill 0.2s linear;
 }
 .splide__arrow:hover {
   cursor: pointer;
 }
 .splide__arrow:hover svg {
-  fill: #57e1d9;
+  fill: $splide-on-hover;
 }
 .splide__arrow:focus {
   outline: none;
@@ -160,11 +163,11 @@
   border: none;
 }
 .splide__pagination__page.is-active {
-  background: #20b2aa;
+  background: $splide-color;
 }
 .splide__pagination__page:hover {
   cursor: pointer;
-  background: #57e1d9;
+  background: $splide-on-hover;
 }
 .splide__pagination__page:focus {
   outline: none;
@@ -172,7 +175,7 @@
 .splide__progress__bar {
   width: 0;
   height: 3px;
-  background: #20b2aa;
+  background: $splide-color;
 }
 .splide {
   padding: 3em;
@@ -181,7 +184,7 @@
   border-radius: 4px;
 }
 .splide__spinner {
-  border: 2px solid #20b2aa;
+  border: 2px solid $splide-color;
   border-left-color: transparent;
 }
 .splide--nav > .splide__track > .splide__list > .splide__slide {
@@ -191,7 +194,7 @@
   border-radius: 4px;
 }
 .splide--nav > .splide__track > .splide__list > .splide__slide.is-active {
-  border-color: #20b2aa;
+  border-color: $splide-color;
   opacity: 1;
 }
 .splide--nav > .splide__track > .splide__list > .splide__slide:focus {
