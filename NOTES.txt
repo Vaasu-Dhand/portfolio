@@ -9,6 +9,7 @@ Tertiary Color: Purple (#6f42c1)
 # Plant Easter eggs
 # Incorporate FrontEnd Design for Blogs
 # Configure Parcel as a Module Bundler
+# Copy Wes's three word navbar me About me 
 
 ### BUGS
 # Hover over skills bring it above Nav

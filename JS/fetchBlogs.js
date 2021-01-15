@@ -38,6 +38,7 @@ function injectBlogData(data) {
     const h5 = document.createElement('h5');
     const p = document.createElement('p');
     const h4 = document.createElement('h4');
+    const br = document.createElement('br');
 
     // ? See if I can use splide id's instead of creating new classes of my own (After Configuring Webpack)
     const currentBlogPost = document.querySelector(`.slide_${blogIndex + 1}`);
@@ -55,7 +56,9 @@ function injectBlogData(data) {
       newLabel.textContent = labelText;
       h5.appendChild(newLabel);
     });
+    // currentBlogPost.(br);
     currentBlogPost.appendChild(h5);
+    currentBlogPost.appendChild(br);
     // Blog Content
     p.innerHTML = content;
     currentBlogPost.appendChild(p);
