@@ -1,4 +1,7 @@
 node_modules
 .env
+.cache
+dist
 # TEMP Files
-.txt
+NOTES.txt
+z-index-tree.txt

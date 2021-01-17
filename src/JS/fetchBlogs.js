@@ -1,3 +1,5 @@
+import Splide from '@splidejs/splide';
+
 // * IIFE for Fetching Blog Data
 (async function fetchBlogs() {
   // Check if sessionStorage Contains Blog Data
@@ -85,3 +87,5 @@ function frontendVisibility() {
   if (currentPost === 0) {
   }
 }
+
+
