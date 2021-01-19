@@ -7,7 +7,7 @@ import './fetchBlogs'
 var navbar = document.querySelector('nav ul') 
 // Hamburger Menu 🍔
 // Look for .hamburger
-var hamburger = document.querySelector(".hamburger");
+var hamburger = document.querySelector(".hamburger");  
 // On click
 hamburger.addEventListener("click", function() {
   // Toggle class "is-active"
@@ -18,4 +18,6 @@ hamburger.addEventListener("click", function() {
 
 // * Smooth Scroll
 var scroll = new SmoothScroll('a[href*="#"]');
+
+console.log("Hello");
  
