@@ -19,5 +19,10 @@ hamburger.addEventListener("click", function() {
 // * Smooth Scroll
 var scroll = new SmoothScroll('a[href*="#"]');
 
-console.log("Hello");
+// * Change Hero Section Opacity on Scroll
+document.addEventListener("DOMContentLoaded", function() {
+  document.addEventListener("scroll", () => {
+    document.querySelector('#hero').style.opacity = 1 - window.scrollY / 800
+  })
+});
  

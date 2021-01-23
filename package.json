@@ -4,9 +4,10 @@
   "description": "Portfolio Website",
   "main": "index.js",
   "scripts": {
+    "cleanup": "rmdir /s /q .cache dist",
     "watch": "parcel watch --no-source-maps src/index.html",
     "build": "parcel build --no-source-maps src/index.html",
-    "dev": "parcel serve --no-source-maps src/index.html"
+    "dev": "parcel serve --no-source-maps src/index.html --open"
   },
   "repository": {
     "type": "git",

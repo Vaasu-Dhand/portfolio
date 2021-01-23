@@ -2,24 +2,24 @@
 
 .stars,
 .twinkling {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   width: 100%;
-  height: 340%; // ! Explicit Values
+  height: auto; // ! Explicit Values
   display: block;
 }
 
 .stars {
   background: #000 url("../Images/stars.png") repeat top center;
-  z-index: -10;	// Always stays at the bottom
+  z-index: 0;	
 }
 
 .twinkling {
   background: transparent url("../Images/twinkling.png") repeat top center;
-  z-index: -9;	// Always stays at the bottom
+  z-index: -9;	// Same as the hero background
 
   -moz-animation: move-twink-back 200s linear infinite;
   -ms-animation: move-twink-back 200s linear infinite;
